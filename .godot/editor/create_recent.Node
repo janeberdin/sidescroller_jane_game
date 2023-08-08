@@ -1,0 +1,15 @@
+TileMap
+TextureRect
+Sprite2D
+StaticBody2D
+Area2D
+CollisionShape2D
+Node2D
+Control
+ColorRect
+AnimationPlayer
+AnimationTree
+AnimatedSprite2D
+RemoteTransform2D
+Camera2D
+CharacterBody2D
