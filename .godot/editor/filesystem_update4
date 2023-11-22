@@ -1,7 +1,7 @@
-res://Levels/test_level.tscn
 res://character/player.tscn
-res://level_two.tscn
+res://Levels/test_level.tscn
 res://level_three/level_three.tscn
+res://level_two.tscn
 res://house.tscn
 res://banana.tscn
 res://apple.tscn
@@ -9,4 +9,3 @@ res://can.tscn
 res://boba.tscn
 res://character/character.tscn
 res://Character/player.tscn
-res://Levels/test_level.gd
