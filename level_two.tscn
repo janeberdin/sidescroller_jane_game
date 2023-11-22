@@ -1511,3 +1511,6 @@ position = Vector2(4015, -150)
 
 [node name="house" parent="." instance=ExtResource("7_lwpby")]
 position = Vector2(5291, -352)
+
+[node name="can4" parent="." instance=ExtResource("6_rtbn2")]
+position = Vector2(3418, 286)
