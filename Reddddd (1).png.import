@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://r2xgqoj58qyo"
-path="res://.godot/imported/Base-01.png-cb79196484d515c7b7a0805a520fe399.ctex"
+uid="uid://by3h1my8iwtk5"
+path="res://.godot/imported/Reddddd (1).png-e06e5b98a4bf4164cd08ba9aff6702cf.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Art/Legacy-Fantasy - High Forest 2.3/HUD/Base-01.png"
-dest_files=["res://.godot/imported/Base-01.png-cb79196484d515c7b7a0805a520fe399.ctex"]
+source_file="res://Reddddd (1).png"
+dest_files=["res://.godot/imported/Reddddd (1).png-e06e5b98a4bf4164cd08ba9aff6702cf.ctex"]
 
 [params]
 

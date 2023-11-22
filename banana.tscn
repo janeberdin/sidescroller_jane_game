@@ -1,0 +1,23 @@
+[gd_scene load_steps=4 format=3 uid="uid://1qp31vl2ixjs"]
+
+[ext_resource type="Script" path="res://banana.gd" id="1_hdiy0"]
+[ext_resource type="Texture2D" uid="uid://dmqwpghjkgyys" path="res://Garbage (3).png" id="1_pivu3"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_yofwb"]
+size = Vector2(46, 29)
+
+[node name="banana" type="Area2D"]
+script = ExtResource("1_hdiy0")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture_filter = 1
+texture = ExtResource("1_pivu3")
+hframes = 2
+vframes = 3
+frame = 1
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 9.5)
+shape = SubResource("RectangleShape2D_yofwb")
+
+[connection signal="body_shape_entered" from="." to="." method="_on_body_shape_entered"]

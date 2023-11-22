@@ -1,0 +1,21 @@
+[gd_scene load_steps=4 format=3 uid="uid://b8hexj54xfcp1"]
+
+[ext_resource type="Script" path="res://apple.gd" id="1_k11nc"]
+[ext_resource type="Texture2D" uid="uid://dmqwpghjkgyys" path="res://Garbage (3).png" id="1_qtrqt"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_iv8o4"]
+
+[node name="apple" type="Area2D"]
+script = ExtResource("1_k11nc")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture_filter = 1
+texture = ExtResource("1_qtrqt")
+hframes = 2
+vframes = 3
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-1, 11)
+shape = SubResource("CapsuleShape2D_iv8o4")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
