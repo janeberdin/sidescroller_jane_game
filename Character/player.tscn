@@ -1,10 +1,11 @@
-[gd_scene load_steps=45 format=3 uid="uid://bgr1sn07yv6yn"]
+[gd_scene load_steps=46 format=3 uid="uid://bgr1sn07yv6yn"]
 
 [ext_resource type="Texture2D" uid="uid://cf5vr3rdkcdr0" path="res://Art/Legacy-Fantasy - High Forest 2.3/Character/Idle/Idle-Sheet.png" id="1_uohqy"]
 [ext_resource type="Texture2D" uid="uid://bvqkoppprkbil" path="res://Art/Legacy-Fantasy - High Forest 2.3/Character/Run/Run-Sheet.png" id="2_c1ij0"]
 [ext_resource type="Texture2D" uid="uid://b1dop62ij8uuy" path="res://Art/Legacy-Fantasy - High Forest 2.3/Character/Jump-End/Jump-End-Sheet.png" id="3_5s4db"]
 [ext_resource type="Texture2D" uid="uid://bolynyyobgkop" path="res://Art/Legacy-Fantasy - High Forest 2.3/Character/Jump-Start/Jump-Start-Sheet.png" id="4_o4p5v"]
 [ext_resource type="Texture2D" uid="uid://cilbq1jmxocd0" path="res://Art/Legacy-Fantasy - High Forest 2.3/Character/Jumlp-All/Jump-All-Sheet.png" id="5_fhfe2"]
+[ext_resource type="AudioStream" uid="uid://dhufq26cpflif" path="res://sound-effect-jumping-in-tv-gameanimation-type-of-sound-137602.wav" id="6_gm1gd"]
 
 [sub_resource type="GDScript" id="GDScript_r3ul2"]
 script/source = "extends CharacterBody2D
@@ -14,6 +15,7 @@ script/source = "extends CharacterBody2D
 @export var double_jump_velocity : float = -300
 
 @onready var animated_sprite : AnimatedSprite2D = $AnimatedSprite2D
+@onready var jump_sound : AudioStreamPlayer2D = $AudioStreamPlayer2D
 
 # Get the gravity from the project settings to be synced with RigidBody nodes.
 var gravity = ProjectSettings.get_setting(\"physics/2d/default_gravity\")
@@ -78,12 +80,14 @@ func jump():
 	velocity.y = jump_velocity
 	animated_sprite.play(\"jump_start\")
 	animation_locked = true
+	jump_sound.play()
 	
 func double_jump():
 	velocity.y = double_jump_velocity
 	animated_sprite.play(\"jump_double\")
 	animation_locked = true
 	has_double_jumped = true
+	jump_sound.play()
 
 func land():
 	animated_sprite.play(\"jump_end\")
@@ -402,5 +406,9 @@ centered = false
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(0, 2)
 shape = SubResource("CapsuleShape2D_ry2ya")
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("6_gm1gd")
+autoplay = true
 
 [connection signal="animation_finished" from="AnimatedSprite2D" to="." method="_on_animated_sprite_2d_animation_finished"]
