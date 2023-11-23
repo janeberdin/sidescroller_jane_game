@@ -1463,7 +1463,7 @@ physics_material_override = SubResource("PhysicsMaterial_vpvxr")
 [node name="Sprite2D" type="Sprite2D" parent="StaticBody2D"]
 
 [node name="Player" parent="." instance=ExtResource("3_75hy2")]
-position = Vector2(40, 26)
+position = Vector2(17, 40)
 
 [node name="Camera2D" type="Camera2D" parent="Player"]
 position_smoothing_enabled = true

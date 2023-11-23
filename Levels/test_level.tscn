@@ -2106,14 +2106,10 @@ format = 2
 layer_0/tile_data = PackedInt32Array(-1572769, 327680, 6, -1310660, 131072, 2, -1245124, 131072, 3, -1179588, 131072, 4, -1114052, 131072, 5, -1310659, 196608, 2, -1245123, 196608, 3, -1179587, 196608, 4, -1114051, 196608, 5, -1310658, 262144, 2, -1245122, 262144, 3, -1179586, 262144, 4, -1114050, 262144, 5, -1179585, 327680, 4, -1245125, 65536, 3, -1179589, 65536, 4, -1114053, 65536, 5, -1179590, 0, 4, -1114054, 0, 5)
 
 [node name="Player" parent="." instance=ExtResource("2_t7emj")]
-position = Vector2(-195, 19)
+position = Vector2(-316, 47)
 
-[node name="RemoteTransform2D" type="RemoteTransform2D" parent="Player"]
+[node name="Camera2D" type="Camera2D" parent="Player"]
 position = Vector2(-6, 12)
-remote_path = NodePath("../../Camera2D")
-
-[node name="Camera2D" type="Camera2D" parent="."]
-position = Vector2(-201, 31)
 process_callback = 0
 position_smoothing_enabled = true
 drag_horizontal_enabled = true
@@ -2174,7 +2170,7 @@ position = Vector2(611, 240)
 position = Vector2(1599, -1)
 
 [node name="house" parent="." instance=ExtResource("12_ostvb")]
-position = Vector2(2938, -767)
+position = Vector2(2926, -767)
 
 [node name="banana" parent="." instance=ExtResource("8_a405l")]
 position = Vector2(-178, -931)

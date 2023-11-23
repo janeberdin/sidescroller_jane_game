@@ -13,4 +13,7 @@ func _process(delta):
 
 
 func _on_body_shape_entered(body_rid, body, body_shape_index, local_shape_index):
-	get_tree().change_scene_to_file("res://level_two.tscn")
+	if get_tree().current_scene.name == "TestLevel":
+		get_tree().change_scene_to_file("res://level_two.tscn")
+	if get_tree().current_scene.name == "Level_two":
+		get_tree().change_scene_to_file("res://level_three/level_three.tscn")
