@@ -1,5 +1,6 @@
 2a60927148abd1d33b818b535e306557
-::res://::1700697979
+::res://::1700698467
+43-starry-sky-stars-night-sky-4k.jpg::CompressedTexture2D::3547306054192900769::1700698467::1700698469::1::::<><>::
 apple.gd::GDScript::-1::1698190975::0::1::::<>Area2D<>::
 apple.tscn::PackedScene::4717387629660312792::1700696916::0::1::::<><>::res://apple.gd<>uid://dmqwpghjkgyys
 banana.gd::GDScript::-1::1698190752::0::1::::<>Area2D<>::
@@ -14,8 +15,7 @@ house.gd::GDScript::-1::1700696856::0::1::::<>Area2D<>::
 House.png::CompressedTexture2D::6299268966078270781::1691724490::1691724490::1::::<><>::
 house.tscn::PackedScene::1951570086423655096::1700696916::0::1::::<><>::res://house.gd<>uid://cv0oblx7f73jl
 icon.svg::CompressedTexture2D::1701750855830309230::1684467268::1684467268::1::::<><>::
-level_two.tscn::PackedScene::1435328707982486449::1700697689::0::1::::<><>::uid://3jiy1snwhio0<>uid://bgr1sn07yv6yn<>uid://b8hexj54xfcp1<>uid://1qp31vl2ixjs<>uid://yiqtlkcw73sw<>uid://22mcr1gbiy7i<>uid://oq6d1u3rkr0c
-night-desert-oasis-under-full-260nw-2054184080.webp::CompressedTexture2D::1336488690215623565::1700697979::1700697979::1::::<><>::
+level_two.tscn::PackedScene::1435328707982486449::1700698336::0::1::::<><>::uid://3jiy1snwhio0<>uid://bgr1sn07yv6yn<>uid://b8hexj54xfcp1<>uid://1qp31vl2ixjs<>uid://yiqtlkcw73sw<>uid://22mcr1gbiy7i<>uid://oq6d1u3rkr0c
 player.tscn::PackedScene::3835015390335508297::1699492077::0::1::::<><>::uid://cf5vr3rdkcdr0
 README.md::TextFile::-1::1684467268::0::1::::<><>::
 Reddddd (1).png::CompressedTexture2D::4129227626576898958::1698795819::1698795820::1::::<><>::
