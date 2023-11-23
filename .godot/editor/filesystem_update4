@@ -1,1 +1,4 @@
 res://level_three/level_three.tscn
+res://character/player.tscn
+res://Levels/test_level.tscn
+res://level_two.tscn

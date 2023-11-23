@@ -2702,7 +2702,7 @@ sources/0 = SubResource("TileSetAtlasSource_fu8bd")
 [node name="Level_two" type="Node2D"]
 
 [node name="Landscape-in-autumn-nature-scene-forest-trees-grass-and-lake-vector" type="Sprite2D" parent="."]
-texture_filter = 3
+texture_filter = 1
 position = Vector2(2650.75, -286)
 scale = Vector2(3.77313, 2.37347)
 texture = ExtResource("1_df8lu")
