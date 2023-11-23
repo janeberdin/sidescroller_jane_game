@@ -1,6 +1,5 @@
-[gd_scene load_steps=12 format=3 uid="uid://upjwifngqe4h"]
+[gd_scene load_steps=11 format=3 uid="uid://upjwifngqe4h"]
 
-[ext_resource type="Texture2D" uid="uid://bqslu28r3v2wb" path="res://43-starry-sky-stars-night-sky-4k.jpg" id="1_wa55q"]
 [ext_resource type="PackedScene" uid="uid://3jiy1snwhio0" path="res://boba.tscn" id="3_61rqu"]
 [ext_resource type="PackedScene" uid="uid://bgr1sn07yv6yn" path="res://character/player.tscn" id="3_75hy2"]
 [ext_resource type="PackedScene" uid="uid://b8hexj54xfcp1" path="res://apple.tscn" id="4_0vq7p"]
@@ -1453,12 +1452,6 @@ physics_layer_0/collision_layer = 1
 sources/0 = SubResource("TileSetAtlasSource_q3knj")
 
 [node name="Level_two" type="Node2D"]
-
-[node name="43-starry-sky-stars-night-sky-4k" type="Sprite2D" parent="."]
-texture_filter = 1
-position = Vector2(2678, -553)
-scale = Vector2(1.45885, 1)
-texture = ExtResource("1_wa55q")
 
 [node name="TextureRect" type="TextureRect" parent="."]
 offset_right = 40.0
