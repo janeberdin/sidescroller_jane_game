@@ -1,22 +1,22 @@
 2a60927148abd1d33b818b535e306557
-::res://::1700699204
+::res://::1700706427
 apple.gd::GDScript::-1::1698190975::0::1::::<>Area2D<>::
-apple.tscn::PackedScene::4717387629660312792::1700696916::0::1::::<><>::res://apple.gd<>uid://dmqwpghjkgyys
+apple.tscn::PackedScene::4717387629660312792::1700706034::0::1::::<><>::res://apple.gd<>uid://dmqwpghjkgyys
 banana.gd::GDScript::-1::1698190752::0::1::::<>Area2D<>::
-banana.tscn::PackedScene::1858902134358841008::1700696916::0::1::::<><>::res://banana.gd<>uid://dmqwpghjkgyys
+banana.tscn::PackedScene::1858902134358841008::1700706034::0::1::::<><>::res://banana.gd<>uid://dmqwpghjkgyys
 boba.gd::GDScript::-1::1698610698::0::1::::<>Area2D<>::
-boba.tscn::PackedScene::1984397010681221965::1700696916::0::1::::<><>::res://boba.gd<>uid://dmqwpghjkgyys
+boba.tscn::PackedScene::1984397010681221965::1700706034::0::1::::<><>::res://boba.gd<>uid://dmqwpghjkgyys
 can.gd::GDScript::-1::1698191586::0::1::::<>Area2D<>::
-can.tscn::PackedScene::1702053264640168586::1700696916::0::1::::<><>::res://can.gd<>uid://dmqwpghjkgyys
+can.tscn::PackedScene::1702053264640168586::1700706034::0::1::::<><>::res://can.gd<>uid://dmqwpghjkgyys
 Gametiles (1).png::CompressedTexture2D::18551011222925891::1696985701::1696985701::1::::<><>::
 Garbage (3).png::CompressedTexture2D::8035921105926362194::1691723298::1691723298::1::::<><>::
 house.gd::GDScript::-1::1700696856::0::1::::<>Area2D<>::
 House.png::CompressedTexture2D::6299268966078270781::1691724490::1691724490::1::::<><>::
-house.tscn::PackedScene::1951570086423655096::1700696916::0::1::::<><>::res://house.gd<>uid://cv0oblx7f73jl
+house.tscn::PackedScene::1951570086423655096::1700706033::0::1::::<><>::res://house.gd<>uid://cv0oblx7f73jl
 icon.svg::CompressedTexture2D::1701750855830309230::1684467268::1684467268::1::::<><>::
 landscape-in-autumn-nature-scene-forest-trees-grass-and-lake-vector.jpg::CompressedTexture2D::1405536211064845033::1700699204::1700699204::1::::<><>::
 large-84.jpg::CompressedTexture2D::2288498039103068301::1700699008::1700699009::1::::<><>::
-level_two.tscn::PackedScene::1435328707982486449::1700698558::0::1::::<><>::uid://3jiy1snwhio0<>uid://bgr1sn07yv6yn<>uid://b8hexj54xfcp1<>uid://1qp31vl2ixjs<>uid://yiqtlkcw73sw<>uid://22mcr1gbiy7i<>uid://oq6d1u3rkr0c
+level_two.tscn::PackedScene::1435328707982486449::1700706033::0::1::::<><>::uid://ua38gkp3t4uv<>uid://3jiy1snwhio0<>uid://bgr1sn07yv6yn<>uid://b8hexj54xfcp1<>uid://1qp31vl2ixjs<>uid://yiqtlkcw73sw<>uid://22mcr1gbiy7i<>uid://oq6d1u3rkr0c<>uid://sr7ls8mruqib
 player.tscn::PackedScene::3835015390335508297::1699492077::0::1::::<><>::uid://cf5vr3rdkcdr0
 README.md::TextFile::-1::1684467268::0::1::::<><>::
 Reddddd (1).png::CompressedTexture2D::4129227626576898958::1698795819::1698795820::1::::<><>::
@@ -25,12 +25,12 @@ Tiles.png::CompressedTexture2D::1017562836953400056::1700431334::1700431357::1::
 Tilesss (1).png::CompressedTexture2D::4874657905674461711::1698614621::1698614621::1::::<><>::
 Trash bin (1).png::CompressedTexture2D::2713626535518821795::1691725273::1691725274::1::::<><>::
 Trash bin.png::CompressedTexture2D::2063005121390431126::1691725120::1691725120::1::::<><>::
-::res://Art/::1691453728
+::res://Art/::1700705710
 blue-background-088FDC-8ecd0503.jpg::CompressedTexture2D::2223200748949551106::1687825029::1687825069::1::::<><>::
-cartoon-game-background-vector-7926680.jpg::CompressedTexture2D::1122011897243706333::1691453460::1691453728::1::::<><>::
 ::res://Art/Legacy-Fantasy - High Forest 2.3/::1691966972
 Credit.txt::TextFile::-1::1691966972::0::1::::<><>::
-::res://Art/Legacy-Fantasy - High Forest 2.3/Assets/::1692329724
+::res://Art/Legacy-Fantasy - High Forest 2.3/Assets/::1700703446
+a18c38cfce79640bf931f09cbcb7421928d00d02.png::CompressedTexture2D::7336924705011566548::1700703445::1700703446::1::::<><>::
 Buildings.png::CompressedTexture2D::997913607088430090::1684467257::1684467257::1::::<><>::
 Hive.png::CompressedTexture2D::7632717419181089436::1684467257::1684467257::1::::<><>::
 Interior-01.png::CompressedTexture2D::595940038258755958::1684467257::1684467257::1::::<><>::
@@ -97,12 +97,12 @@ Golden-Tree.png::CompressedTexture2D::6878549809411101730::1684467266::168446726
 Green-Tree.png::CompressedTexture2D::725885093742723659::1684467267::1684467267::1::::<><>::
 Red-Tree.png::CompressedTexture2D::1209529535376390761::1684467267::1684467268::1::::<><>::
 Yellow-Tree.png::CompressedTexture2D::1752902837429214101::1684467268::1684467268::1::::<><>::
-::res://character/::1700696916
+::res://character/::1700706034
 character.gd::GDScript::-1::1698718087::0::1::::<>CharacterBody2D<>::
-character.tscn::PackedScene::2862542229236402055::1700696916::0::1::::<><>::uid://cf5vr3rdkcdr0<>res://character/character.gd
-player.tscn::PackedScene::2844259676353057697::1700696915::0::1::::<><>::uid://cf5vr3rdkcdr0<>uid://bvqkoppprkbil<>uid://b1dop62ij8uuy<>uid://bolynyyobgkop<>uid://cilbq1jmxocd0<>uid://dhufq26cpflif
-::res://Levels/::1700697694
+character.tscn::PackedScene::2862542229236402055::1700706034::0::1::::<><>::uid://cf5vr3rdkcdr0<>res://character/character.gd
+player.tscn::PackedScene::2844259676353057697::1700706032::0::1::::<><>::uid://cf5vr3rdkcdr0<>uid://bvqkoppprkbil<>uid://b1dop62ij8uuy<>uid://bolynyyobgkop<>uid://cilbq1jmxocd0<>uid://dhufq26cpflif
+::res://Levels/::1700706033
 test_level.gd::GDScript::-1::1700617755::0::1::::<>Node2D<>::
-test_level.tscn::PackedScene::3377873136036911574::1700697694::0::1::::<><>::uid://cnb6vef35n3ad<>uid://cqrqnlx2jpsop<>uid://bgr1sn07yv6yn<>uid://dmqwpghjkgyys<>uid://cv0oblx7f73jl<>uid://4nlnmierk1rm<>uid://bewrbdwkcoomd<>uid://1qp31vl2ixjs<>uid://b8hexj54xfcp1<>uid://yiqtlkcw73sw<>uid://3jiy1snwhio0<>uid://22mcr1gbiy7i
-::res://level_three/::1700697696
-level_three.tscn::PackedScene::7820219627557517828::1700697696::0::1::::<><>::uid://by3h1my8iwtk5<>uid://1qp31vl2ixjs<>uid://b8hexj54xfcp1<>uid://3jiy1snwhio0<>uid://yiqtlkcw73sw<>uid://bgr1sn07yv6yn
+test_level.tscn::PackedScene::3377873136036911574::1700706033::0::1::::<><>::uid://cnb6vef35n3ad<>uid://cqrqnlx2jpsop<>uid://bgr1sn07yv6yn<>uid://dmqwpghjkgyys<>uid://cv0oblx7f73jl<>uid://4nlnmierk1rm<>uid://bewrbdwkcoomd<>uid://1qp31vl2ixjs<>uid://b8hexj54xfcp1<>uid://yiqtlkcw73sw<>uid://3jiy1snwhio0<>uid://22mcr1gbiy7i
+::res://level_three/::1700706033
+level_three.tscn::PackedScene::7820219627557517828::1700706033::0::1::::<><>::uid://by3h1my8iwtk5<>uid://7uth08cx1kbd<>uid://1qp31vl2ixjs<>uid://b8hexj54xfcp1<>uid://3jiy1snwhio0<>uid://yiqtlkcw73sw<>uid://bgr1sn07yv6yn

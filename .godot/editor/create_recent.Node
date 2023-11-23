@@ -1,7 +1,7 @@
+TileMap
 AudioStreamPlayer2D
 RemoteTransform2D
 Camera2D
-TileMap
 Area2D
 RigidBody2D
 StaticBody2D

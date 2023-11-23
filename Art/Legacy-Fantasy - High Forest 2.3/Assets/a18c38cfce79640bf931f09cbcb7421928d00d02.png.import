@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://p8rmwb4g5xvh"
-path="res://.godot/imported/cartoon-game-background-vector-7926680.jpg-a4c1a7291239476d808f0aa572edf897.ctex"
+uid="uid://dcsccwd477nuy"
+path="res://.godot/imported/a18c38cfce79640bf931f09cbcb7421928d00d02.png-724d5d3d0da7fd36409f49d86688ef29.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Art/cartoon-game-background-vector-7926680.jpg"
-dest_files=["res://.godot/imported/cartoon-game-background-vector-7926680.jpg-a4c1a7291239476d808f0aa572edf897.ctex"]
+source_file="res://Art/Legacy-Fantasy - High Forest 2.3/Assets/a18c38cfce79640bf931f09cbcb7421928d00d02.png"
+dest_files=["res://.godot/imported/a18c38cfce79640bf931f09cbcb7421928d00d02.png-724d5d3d0da7fd36409f49d86688ef29.ctex"]
 
 [params]
 
