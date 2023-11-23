@@ -1,5 +1,5 @@
 2a60927148abd1d33b818b535e306557
-::res://::1700699008
+::res://::1700699204
 apple.gd::GDScript::-1::1698190975::0::1::::<>Area2D<>::
 apple.tscn::PackedScene::4717387629660312792::1700696916::0::1::::<><>::res://apple.gd<>uid://dmqwpghjkgyys
 banana.gd::GDScript::-1::1698190752::0::1::::<>Area2D<>::
@@ -14,6 +14,7 @@ house.gd::GDScript::-1::1700696856::0::1::::<>Area2D<>::
 House.png::CompressedTexture2D::6299268966078270781::1691724490::1691724490::1::::<><>::
 house.tscn::PackedScene::1951570086423655096::1700696916::0::1::::<><>::res://house.gd<>uid://cv0oblx7f73jl
 icon.svg::CompressedTexture2D::1701750855830309230::1684467268::1684467268::1::::<><>::
+landscape-in-autumn-nature-scene-forest-trees-grass-and-lake-vector.jpg::CompressedTexture2D::1405536211064845033::1700699204::1700699204::1::::<><>::
 large-84.jpg::CompressedTexture2D::2288498039103068301::1700699008::1700699009::1::::<><>::
 level_two.tscn::PackedScene::1435328707982486449::1700698558::0::1::::<><>::uid://3jiy1snwhio0<>uid://bgr1sn07yv6yn<>uid://b8hexj54xfcp1<>uid://1qp31vl2ixjs<>uid://yiqtlkcw73sw<>uid://22mcr1gbiy7i<>uid://oq6d1u3rkr0c
 player.tscn::PackedScene::3835015390335508297::1699492077::0::1::::<><>::uid://cf5vr3rdkcdr0
