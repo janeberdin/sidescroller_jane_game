@@ -1,4 +1,4 @@
-[gd_scene load_steps=46 format=3 uid="uid://bgr1sn07yv6yn"]
+[gd_scene load_steps=47 format=3 uid="uid://bgr1sn07yv6yn"]
 
 [ext_resource type="Texture2D" uid="uid://cf5vr3rdkcdr0" path="res://Art/Legacy-Fantasy - High Forest 2.3/Character/Idle/Idle-Sheet.png" id="1_uohqy"]
 [ext_resource type="Texture2D" uid="uid://bvqkoppprkbil" path="res://Art/Legacy-Fantasy - High Forest 2.3/Character/Run/Run-Sheet.png" id="2_c1ij0"]
@@ -6,6 +6,7 @@
 [ext_resource type="Texture2D" uid="uid://bolynyyobgkop" path="res://Art/Legacy-Fantasy - High Forest 2.3/Character/Jump-Start/Jump-Start-Sheet.png" id="4_o4p5v"]
 [ext_resource type="Texture2D" uid="uid://cilbq1jmxocd0" path="res://Art/Legacy-Fantasy - High Forest 2.3/Character/Jumlp-All/Jump-All-Sheet.png" id="5_fhfe2"]
 [ext_resource type="AudioStream" uid="uid://dhufq26cpflif" path="res://sound-effect-jumping-in-tv-gameanimation-type-of-sound-137602.wav" id="6_gm1gd"]
+[ext_resource type="AudioStream" uid="uid://bhmqsxl6jea5e" path="res://man-is-he-mega-glbml-22045.mp3" id="7_s7omn"]
 
 [sub_resource type="GDScript" id="GDScript_r3ul2"]
 script/source = "extends CharacterBody2D
@@ -404,12 +405,15 @@ autoplay = "idle"
 centered = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-visible = false
 position = Vector2(0, 2)
 shape = SubResource("CapsuleShape2D_ry2ya")
 
 [node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource("6_gm1gd")
+autoplay = true
+
+[node name="AudioStreamPlayer2D2" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("7_s7omn")
 autoplay = true
 
 [connection signal="animation_finished" from="AnimatedSprite2D" to="." method="_on_animated_sprite_2d_animation_finished"]

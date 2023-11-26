@@ -581,7 +581,7 @@ position = Vector2(467, 324)
 position = Vector2(890, 562)
 
 [node name="boba" parent="." instance=ExtResource("5_eui23")]
-position = Vector2(538, 579)
+position = Vector2(632, 367)
 
 [node name="can" parent="." instance=ExtResource("6_dmo2x")]
 position = Vector2(1073, -479)
@@ -619,3 +619,6 @@ position = Vector2(1, 355)
 
 [node name="apple4" parent="." instance=ExtResource("4_ct33s")]
 position = Vector2(-430, -574)
+
+[node name="can3" parent="." instance=ExtResource("6_dmo2x")]
+position = Vector2(534, 567)

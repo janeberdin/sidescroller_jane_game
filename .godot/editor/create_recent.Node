@@ -1,5 +1,8 @@
-TileMap
 AudioStreamPlayer2D
+Button
+VBoxContainer
+MarginContainer
+TileMap
 RemoteTransform2D
 Camera2D
 Area2D

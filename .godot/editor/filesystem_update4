@@ -1,4 +1,12 @@
-res://level_three/level_three.tscn
+res://Menu.gd
+res://menu.tscn
 res://character/player.tscn
 res://Levels/test_level.tscn
 res://level_two.tscn
+res://level_three/level_three.tscn
+res://house.tscn
+res://banana.tscn
+res://apple.tscn
+res://can.tscn
+res://boba.tscn
+res://character/character.tscn
